@@ -1,0 +1,24 @@
+{
+  "name": "promise-serializer",
+  "version": "1.0.0",
+  "description": "promise serializer",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup src/index.js --file lib/index.js --format cjs --name PromiseSerailizer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlsirce/promise-serializer.git"
+  },
+  "author": "gaoyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlsirce/promise-serializer/issues"
+  },
+  "homepage": "https://github.com/carlsirce/promise-serializer#readme",
+  "dependencies": {
+    "jest": "^24.9.0",
+    "rollup": "^1.28.0"
+  }
+}
